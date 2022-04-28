@@ -47,6 +47,7 @@ namespace GiovanniBlocodeNotas.View
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fundoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -61,7 +62,6 @@ namespace GiovanniBlocodeNotas.View
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
-            this.fundoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -204,16 +204,23 @@ namespace GiovanniBlocodeNotas.View
             // customizeToolStripMenuItem
             // 
             this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.customizeToolStripMenuItem.Text = "Cor da &Font";
             this.customizeToolStripMenuItem.Click += new System.EventHandler(this.customizeToolStripMenuItem_Click);
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.optionsToolStripMenuItem.Text = "&Font";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
+            // 
+            // fundoToolStripMenuItem
+            // 
+            this.fundoToolStripMenuItem.Name = "fundoToolStripMenuItem";
+            this.fundoToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.fundoToolStripMenuItem.Text = "&Fundo";
+            this.fundoToolStripMenuItem.Click += new System.EventHandler(this.fundoToolStripMenuItem_Click);
             // 
             // toolStrip1
             // 
@@ -241,6 +248,7 @@ namespace GiovanniBlocodeNotas.View
             this.newToolStripButton.Name = "newToolStripButton";
             this.newToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.newToolStripButton.Text = "&New";
+            this.newToolStripButton.Click += new System.EventHandler(this.newToolStripButton_Click);
             // 
             // openToolStripButton
             // 
@@ -250,6 +258,7 @@ namespace GiovanniBlocodeNotas.View
             this.openToolStripButton.Name = "openToolStripButton";
             this.openToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.openToolStripButton.Text = "&Open";
+            this.openToolStripButton.Click += new System.EventHandler(this.openToolStripButton_Click);
             // 
             // saveToolStripButton
             // 
@@ -259,6 +268,7 @@ namespace GiovanniBlocodeNotas.View
             this.saveToolStripButton.Name = "saveToolStripButton";
             this.saveToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.saveToolStripButton.Text = "&Save";
+            this.saveToolStripButton.Click += new System.EventHandler(this.saveToolStripButton_Click);
             // 
             // toolStripSeparator2
             // 
@@ -273,6 +283,7 @@ namespace GiovanniBlocodeNotas.View
             this.cutToolStripButton.Name = "cutToolStripButton";
             this.cutToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.cutToolStripButton.Text = "C&ut";
+            this.cutToolStripButton.Click += new System.EventHandler(this.cutToolStripButton_Click);
             // 
             // copyToolStripButton
             // 
@@ -282,6 +293,7 @@ namespace GiovanniBlocodeNotas.View
             this.copyToolStripButton.Name = "copyToolStripButton";
             this.copyToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.copyToolStripButton.Text = "&Copy";
+            this.copyToolStripButton.Click += new System.EventHandler(this.copyToolStripButton_Click);
             // 
             // pasteToolStripButton
             // 
@@ -291,6 +303,7 @@ namespace GiovanniBlocodeNotas.View
             this.pasteToolStripButton.Name = "pasteToolStripButton";
             this.pasteToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.pasteToolStripButton.Text = "&Paste";
+            this.pasteToolStripButton.Click += new System.EventHandler(this.pasteToolStripButton_Click);
             // 
             // toolStripSeparator3
             // 
@@ -310,13 +323,6 @@ namespace GiovanniBlocodeNotas.View
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // fundoToolStripMenuItem
-            // 
-            this.fundoToolStripMenuItem.Name = "fundoToolStripMenuItem";
-            this.fundoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fundoToolStripMenuItem.Text = "&Fundo";
-            this.fundoToolStripMenuItem.Click += new System.EventHandler(this.fundoToolStripMenuItem_Click);
             // 
             // TelaBloco
             // 

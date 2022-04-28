@@ -121,6 +121,36 @@ namespace GiovanniBlocodeNotas.View
                 rtbBoard.BackColor = colorDialog1.Color;
             }
         }
+
+        private void pasteToolStripButton_Click(object sender, EventArgs e)
+        {
+            pasteToolStripMenuItem.PerformClick();
+        }
+
+        private void newToolStripButton_Click(object sender, EventArgs e)
+        {
+            newToolStripMenuItem.PerformClick();
+        }
+
+        private void openToolStripButton_Click(object sender, EventArgs e)
+        {
+            openToolStripMenuItem.PerformClick();
+        }
+
+        private void saveToolStripButton_Click(object sender, EventArgs e)
+        {
+            saveAsToolStripMenuItem.PerformClick();
+        }
+
+        private void cutToolStripButton_Click(object sender, EventArgs e)
+        {
+            cutToolStripMenuItem.PerformClick();
+        }
+
+        private void copyToolStripButton_Click(object sender, EventArgs e)
+        {
+            copyToolStripMenuItem.PerformClick();
+        }
     }
 
 }
